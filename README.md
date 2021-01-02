@@ -7,4 +7,4 @@ I'm a computer science student. I've been learning about topics relevant to algo
 Please note that I'm not a professional in computer science or programming. I'm glad that my resources can help you, but if there's an error that both you and I overlooked, don't blame me for that.
 
 # Where the questions come from?
-I'm seldom on LeetCode, and the questions I answered may not be coming from there. Rather, I would describe myself as a scavenger wandering in different mini-blogs or books for questions, questions of which may be originated from LeetCode though.
+I'm seldom on LeetCode, and the questions I answered may not be coming from there. Rather, I would describe myself as a scavenger wandering in different mini-blogs or books for interesting questions, questions of which may be originated from LeetCode (and other similiar websites).
