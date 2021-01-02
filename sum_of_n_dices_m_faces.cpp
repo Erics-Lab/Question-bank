@@ -1,7 +1,12 @@
+/*
+Objective of the code: To give the number of combinations created by tossing n m-faces dices such that the sums of faces are s
+, where n, m, s are all positive natural number.
+*/
+
 #include <iostream>
 #include "assert.h"
 
-int roll(int _n, int _m, int _s)    //number of dice(s), number of face(s) of dice(s), sum constraint
+int roll(int _n, int _m, int _s)    //parameters: number of dice(s), number of face(s) of dice(s), sum constraint
 {
     assert((_n > 0) && (_m > 0) && (_n <= _s) && (_s <= _n * _m));  //check for rational dices and constraint, quit upon failed assertion
 
