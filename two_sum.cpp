@@ -1,17 +1,21 @@
+/*
+    Objective of the code: To find the distinctive indexes (indices) of two numbers in a given integer vector nums, sum of which matches the given target.
+*/
+
 #include <iostream>
 #include <vector>
 
-std::vector<int> two_sum(std::vector<int>& nums,int target)
+std::vector<int> two_sum(std::vector<int>& nums,int target) //parameter list: vector of integers, target
 {
-    static short size = nums.size();
+    static short size = nums.size();    //store the length of the given integer vector
     
-    for (short i = 0; i < size; i++)
+    for (short i = 0; i < size; i++)    //first pointer accessing vector sequentially
     {
-        for (short j = i + 1; j < size; j++)
+        for (short j = i + 1; j < size; j++)    //second pointer pointing to the elements beyond the first pointer and access them sequentially
         {
-            if (nums[j] == target - nums[i])
+            if (nums[j] == target - nums[i])    //condition become true iff num[i]+num[j] equals to target
             {
-                return std::vector<int>{i,j};
+                return std::vector<int>{i,j};   //return the target indexes (i and j)
             }
         }
     }
