@@ -1,6 +1,6 @@
 /*
 Objective of the code: To give the number of combinations created by tossing n m-faces dices such that the sums of faces are s
-, where n, m, s are all positive natural number.
+, where n, m, s are all positive natural number. The program should automatically quit if the given conditions do not make sense (e.g. 0 dice with -2 faces).
 */
 
 #include <iostream>
