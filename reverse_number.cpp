@@ -1,3 +1,7 @@
+/*
+    Objective of the code: To take a number x (-2^31 < x < 2^31-1) and return another number with its' digits in reverse order. 
+*/
+
 #include <iostream>
 
 int reverse(int x)
