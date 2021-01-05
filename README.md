@@ -9,3 +9,6 @@ I'm a computer science student. I've been learning about topics relevant to algo
 
 # Where the questions come from?
 I'm seldom on LeetCode, and the questions I answered may not be coming from there. Rather, I would describe myself as a scavenger wandering in different mini-blogs or books for interesting questions, questions of which may be originated from LeetCode (and other similiar websites).
+
+# How to find your file?
+My goal is to upload solutions frequently, if not daily. Therefore, I expect that the repository size would be huge (hundreds or even thousands of files) in the long run. If that happened, I probably would create folders for compilations of solutions related to different subtopics. But for now, let's find the question(s) you want by sequential searching. I would create a table of content in here once the number of files exceeds dozens.
