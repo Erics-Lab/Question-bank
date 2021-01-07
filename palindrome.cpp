@@ -1,3 +1,6 @@
+/*
+    Objective of the code: To test whether an integer representation is palindrome.
+*/
 #include <iostream>
 
 bool palindrome(int x)
@@ -11,7 +14,7 @@ bool palindrome(int x)
         long pal = 0;
         int old = x;
 
-        while (x != 0)
+        while (x != 0)  //get the digits reversed
         {
             pal = pal * 10 + x % 10;
             x /= 10;
@@ -21,8 +24,9 @@ bool palindrome(int x)
     }
 }
 
-int main()
+int main()  //testing
 {
-    std::cout << palindrome(99) << std::endl;
+    std::cout << palindrome(99) << std::endl;   //should show 1
+    std::cout << palindrome(156) << std::endl;  //should show 0;
     return 0;
 }
