@@ -1,6 +1,9 @@
+/*
+    Objective of the code: To check if the given string s has pair(s) of '{}','[]', or '()' with nothing encapsulated between pairs.
+*/
 #include <iostream>
-#include <vector>
-#include <map>
+#include <vector>   //for std::vector
+#include <map>  //for std::map
 
 bool isValid(std::string s)
 {
