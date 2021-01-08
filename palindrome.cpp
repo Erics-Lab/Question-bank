@@ -7,7 +7,7 @@ bool palindrome(int x)
 {
     if (x <= 0)
     {
-        return (!(x * x > 0));
+        return (!(x * x > 0));  //x = 0 => retirn true, x < 0 => return false
     }
     else
     {
