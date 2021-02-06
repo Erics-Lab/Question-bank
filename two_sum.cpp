@@ -13,7 +13,7 @@ std::vector<int> two_sum(std::vector<int>& nums,int target) //parameter list: ve
     {
         for (short j = i + 1; j < size; j++)    //second pointer pointing to the elements beyond the first pointer and access them sequentially
         {
-            if (nums[j] == target - nums[i])    //condition become true iff num[i]+num[j] equals to target
+            if (nums[j] + nums[i] == target)    //condition become true iff num[i]+num[j] equals to target
             {
                 return std::vector<int>{i,j};   //return the target indexes (i and j)
             }
